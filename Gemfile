@@ -67,3 +67,5 @@ group :test do
 end
 
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+gem "react_on_rails", "= 13.4"
