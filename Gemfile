@@ -67,3 +67,7 @@ group :test do
 end
 
 gem "jsbundling-rails", "~> 1.2"
+
+gem 'react-rails'
+
+gem 'rack-cors'
