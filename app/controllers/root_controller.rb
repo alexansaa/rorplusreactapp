@@ -1,6 +1,6 @@
 class RootController < ApplicationController
   def index
-    @message = Message.all.order('RANDOM()').first;
+    @message = Message.all.order('RANDOM()').first
 
     respond_to do |format|
       format.html
