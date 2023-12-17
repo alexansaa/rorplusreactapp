@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+export PATH="$(dirname "$RUBY"):$PATH"
+
 if ! gem list foreman -i --silent; then
   echo "Installing foreman..."
   gem install foreman
